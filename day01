@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>练习1</title>
+<link rel="stylesheet" type="text/css" href="CSS/document_css.css/">
+</head>
+<style>
+	a{text-decoration: none;
+
+	}
+		body{
+			background-image: url(picture/p1.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			
+
+		}
+	p{font-size: 18px; }	
+</style>
+	
+</style>
+<body>
+   <center>
+   	<a href="#db" title="" >去底部</a>
+		<h1>这是我的个人博客</h1>
+   </center>
+   <hr>
+
+   <center>
+   	<h2><del>好想爱这个世界啊</del><h2>
+   	<a  id="link" href="https://baike.baidu.com/item/%E5%8D%8E%E6%99%A8%E5%AE%87/6064097?fr=aladdin" title="1" >华晨宇</a>
+   	
+   	<p>抱着沙发，睡眼昏花,
+凌乱头发<br/>却渴望像电影主角一样潇洒<br/>
+屋檐脚下排着乌鸦密密麻麻<br/>
+被压抑的情绪不知如何表达<br/>
+无论我在这里，在那里仿佛失魂的虫鸣<br/>
+却明白此刻应该做些努力<br/>
+无论我在这里，在那里不能弥补的过去<br/>
+每当想起，想过离开以这种方式存在<br/>
+是因为那些旁白，那些姿态那些伤害<br/>
+不想离开当你说还有你在<br/>
+忽然我开始莫名期待<br/>
+夕阳西，翻着电话无人拨打<br/>
+是喜欢孤独的我该得到的吧<br/>
+独木桥下把谁推下才算赢家<br/>
+我无声的反抗何时能战胜他<br/>
+无论我在这里，在那里<br/>
+仿佛失魂的虫鸣<br/>却明白此刻应该做些努力<br/>
+无论我在这里，在那里<br/>
+不能弥补的过去每当想起<br/>想过离开以这种方式存在<br/>
+是因为那些旁白，那些姿态那些伤害。<br/>
+不想离开也许尝试过被爱<br/>
+会开始仰望未来伤疤就丢给回忆吧<br/>
+放下才得到更好啊别怕别怕<br/>
+想过离开，当阳光败给阴霾<br/>
+没想到你会拼命为我拨开<br/>
+曾想过离开却又坚持到现在<br/>
+熬过了那些旁白，那些姿态那些伤害<br/>
+不想离开，当你的笑容绽开<br/>
+这世界突然填满色彩<br/>抱着沙发
+睡眼昏花，凌乱头发<br/>
+夕阳西下拨通电话是你呀<br/></p>
+<hr/>
+<br/>
+<!--
+将链接的地址设置为#，则点击超链接以后，会自动跳转到当前页面的顶部 
+#+id的名字 会直接跳转到元素所在的位置
+id在一个页面中有且存在一个，不能重复出现
+-->
+<a class="ch1" href="#" title="" id="db">回到顶部</a>|
+<!--
+mailto:+邮件地址，会默认打开电脑默认的邮件APP
+-->
+<a class="ch2" href="mailto:379431163@qq.com" title="">联系我们</a>	
+   </center>
+</body>
+</html>
